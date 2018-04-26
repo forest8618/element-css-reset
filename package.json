@@ -1,0 +1,11 @@
+{
+  "name": "element-css-reset",
+  "version": "1.0.0",
+  "description": "reset element-ui styles",
+  "main": "index.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "la7ender",
+  "license": "ISC"
+}
