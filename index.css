@@ -2066,7 +2066,7 @@
     display: table-cell; }
   .el-input-group__append, .el-input-group__prepend {
     background-color: #f5f7fa;
-    color: #FFFFFF;
+    color: #666;
     vertical-align: middle;
     display: table-cell;
     position: relative;
@@ -4579,7 +4579,7 @@
     display: table-cell; }
   .el-input-group__append, .el-input-group__prepend {
     background-color: #f5f7fa;
-    color: #FFFFFF;
+    color: #666;
     vertical-align: middle;
     display: table-cell;
     position: relative;
@@ -6989,7 +6989,8 @@
   height: 56px;
   line-height: 56px;
   font-size: 14px;
-  color: #303133;
+  /* color: #303133; */
+  color: #ccc;
   padding: 0 20px;
   list-style: none;
   cursor: pointer;
@@ -7040,7 +7041,8 @@
     height: 56px;
     line-height: 56px;
     font-size: 14px;
-    color: #303133;
+    /* color: #303133; */
+    color: #ccc;
     padding: 0 20px;
     list-style: none;
     cursor: pointer;
@@ -7431,7 +7433,7 @@
     color: #606266;
     display: inline-block;
     font-size: inherit;
-    height: 30px;
+    height: 30px !important;
     line-height: 30px;
     outline: none;
     padding: 0 15px;
@@ -7512,21 +7514,21 @@
   .el-input--medium {
     font-size: 14px; }
     .el-input--medium .el-input__inner {
-      height: 30px;
+      height: 30px !important;
       line-height: 30px; }
     .el-input--medium .el-input__icon {
       line-height: 30px; }
   .el-input--small {
     font-size: 14px; }
     .el-input--small .el-input__inner {
-      height: 30px;
+      height: 30px !important;
       line-height: 30px; }
     .el-input--small .el-input__icon {
       line-height: 30px; }
   .el-input--mini {
     font-size: 14px; }
     .el-input--mini .el-input__inner {
-      height: 30px;
+      height: 30px !important;
       line-height: 30px; }
     .el-input--mini .el-input__icon {
       line-height: 30px; }
@@ -7541,7 +7543,7 @@
     display: table-cell; }
   .el-input-group__append, .el-input-group__prepend {
     background-color: #f5f7fa;
-    color: #FFFFFF;
+    color: #666;
     vertical-align: middle;
     display: table-cell;
     position: relative;
@@ -8145,7 +8147,7 @@
     color: #606266;
     display: inline-block;
     font-size: inherit;
-    height: 30px;
+    height: 30px !important;
     line-height: 30px;
     outline: none;
     padding: 0 15px;
@@ -8226,21 +8228,21 @@
   .el-input--medium {
     font-size: 14px; }
     .el-input--medium .el-input__inner {
-      height: 30px;
+      height: 30px !important;
       line-height: 30px; }
     .el-input--medium .el-input__icon {
       line-height: 30px; }
   .el-input--small {
     font-size: 14px; }
     .el-input--small .el-input__inner {
-      height: 30px;
+      height: 30px !important;
       line-height: 30px; }
     .el-input--small .el-input__icon {
       line-height: 30px; }
   .el-input--mini {
     font-size: 14px; }
     .el-input--mini .el-input__inner {
-      height: 30px;
+      height: 30px !important;
       line-height: 30px; }
     .el-input--mini .el-input__icon {
       line-height: 30px; }
@@ -8255,7 +8257,7 @@
     display: table-cell; }
   .el-input-group__append, .el-input-group__prepend {
     background-color: #f5f7fa;
-    color: #FFFFFF;
+    color: #666;
     vertical-align: middle;
     display: table-cell;
     position: relative;
@@ -11611,7 +11613,7 @@
     color: #606266;
     display: inline-block;
     font-size: inherit;
-    height: 30px;
+    height: 30px !important;
     line-height: 30px;
     outline: none;
     padding: 0 15px;
@@ -11692,21 +11694,21 @@
   .el-input--medium {
     font-size: 14px; }
     .el-input--medium .el-input__inner {
-      height: 30px;
+      height: 30px !important;
       line-height: 30px; }
     .el-input--medium .el-input__icon {
       line-height: 30px; }
   .el-input--small {
     font-size: 14px; }
     .el-input--small .el-input__inner {
-      height: 30px;
+      height: 30px !important;
       line-height: 30px; }
     .el-input--small .el-input__icon {
       line-height: 30px; }
   .el-input--mini {
     font-size: 14px; }
     .el-input--mini .el-input__inner {
-      height: 30px;
+      height: 30px !important;
       line-height: 30px; }
     .el-input--mini .el-input__icon {
       line-height: 30px; }
@@ -11721,7 +11723,7 @@
     display: table-cell; }
   .el-input-group__append, .el-input-group__prepend {
     background-color: #f5f7fa;
-    color: #FFFFFF;
+    color: #666;
     vertical-align: middle;
     display: table-cell;
     position: relative;
@@ -18093,7 +18095,7 @@
     border-color: #00AFEF; }
 
 .el-range-editor--medium.el-input__inner {
-  height: 36px; }
+  height: 30px !important; }
 
 .el-range-editor--medium .el-range-separator {
   line-height: 23px;
@@ -18107,7 +18109,7 @@
   line-height: 23px; }
 
 .el-range-editor--small.el-input__inner {
-  height: 32px; }
+  height: 30px !important; }
 
 .el-range-editor--small .el-range-separator {
   line-height: 23px;
@@ -18121,7 +18123,7 @@
   line-height: 23px; }
 
 .el-range-editor--mini.el-input__inner {
-  height: 28px; }
+  height: 30px !important; }
 
 .el-range-editor--mini .el-range-separator {
   line-height: 23px;
@@ -19448,7 +19450,7 @@
     color: #606266;
     display: inline-block;
     font-size: inherit;
-    height: 30px;
+    height: 30px !important;
     line-height: 30px;
     outline: none;
     padding: 0 15px;
@@ -19529,21 +19531,21 @@
   .el-input--medium {
     font-size: 14px; }
     .el-input--medium .el-input__inner {
-      height: 30px;
+      height: 30px !important;
       line-height: 30px; }
     .el-input--medium .el-input__icon {
       line-height: 30px; }
   .el-input--small {
     font-size: 14px; }
     .el-input--small .el-input__inner {
-      height: 30px;
+      height: 30px !important;
       line-height: 30px; }
     .el-input--small .el-input__icon {
       line-height: 30px; }
   .el-input--mini {
     font-size: 14px; }
     .el-input--mini .el-input__inner {
-      height: 30px;
+      height: 30px !important;
       line-height: 30px; }
     .el-input--mini .el-input__icon {
       line-height: 30px; }
@@ -19558,7 +19560,7 @@
     display: table-cell; }
   .el-input-group__append, .el-input-group__prepend {
     background-color: #f5f7fa;
-    color: #FFFFFF;
+    color: #666;
     vertical-align: middle;
     display: table-cell;
     position: relative;
@@ -20842,7 +20844,7 @@
     border-color: #00AFEF; }
 
 .el-range-editor--medium.el-input__inner {
-  height: 36px; }
+  height: 30px !important; }
 
 .el-range-editor--medium .el-range-separator {
   line-height: 23px;
@@ -20856,7 +20858,7 @@
   line-height: 23px; }
 
 .el-range-editor--small.el-input__inner {
-  height: 32px; }
+  height: 30px !important; }
 
 .el-range-editor--small .el-range-separator {
   line-height: 23px;
@@ -20870,7 +20872,7 @@
   line-height: 23px; }
 
 .el-range-editor--mini.el-input__inner {
-  height: 28px; }
+  height: 30px !important; }
 
 .el-range-editor--mini .el-range-separator {
   line-height: 23px;
@@ -22537,7 +22539,7 @@
     border-color: #00AFEF; }
 
 .el-range-editor--medium.el-input__inner {
-  height: 36px; }
+  height: 30px !important; }
 
 .el-range-editor--medium .el-range-separator {
   line-height: 23px;
@@ -22551,7 +22553,7 @@
   line-height: 23px; }
 
 .el-range-editor--small.el-input__inner {
-  height: 32px; }
+  height: 30px !important; }
 
 .el-range-editor--small .el-range-separator {
   line-height: 23px;
@@ -22565,7 +22567,7 @@
   line-height: 23px; }
 
 .el-range-editor--mini.el-input__inner {
-  height: 28px; }
+  height: 30px !important; }
 
 .el-range-editor--mini .el-range-separator {
   line-height: 23px;
@@ -23610,7 +23612,7 @@
     color: #606266;
     display: inline-block;
     font-size: inherit;
-    height: 30px;
+    height: 30px !important;
     line-height: 30px;
     outline: none;
     padding: 0 15px;
@@ -23691,21 +23693,21 @@
   .el-input--medium {
     font-size: 14px; }
     .el-input--medium .el-input__inner {
-      height: 30px;
+      height: 30px !important;
       line-height: 30px; }
     .el-input--medium .el-input__icon {
       line-height: 30px; }
   .el-input--small {
     font-size: 14px; }
     .el-input--small .el-input__inner {
-      height: 30px;
+      height: 30px !important;
       line-height: 30px; }
     .el-input--small .el-input__icon {
       line-height: 30px; }
   .el-input--mini {
     font-size: 14px; }
     .el-input--mini .el-input__inner {
-      height: 30px;
+      height: 30px !important;
       line-height: 30px; }
     .el-input--mini .el-input__icon {
       line-height: 30px; }
@@ -23720,7 +23722,7 @@
     display: table-cell; }
   .el-input-group__append, .el-input-group__prepend {
     background-color: #f5f7fa;
-    color: #FFFFFF;
+    color: #666;
     vertical-align: middle;
     display: table-cell;
     position: relative;
@@ -26538,7 +26540,7 @@
     color: #606266;
     display: inline-block;
     font-size: inherit;
-    height: 30px;
+    height: 30px !important;
     line-height: 30px;
     outline: none;
     padding: 0 15px;
@@ -26619,21 +26621,21 @@
   .el-input--medium {
     font-size: 14px; }
     .el-input--medium .el-input__inner {
-      height: 30px;
+      height: 30px !important;
       line-height: 30px; }
     .el-input--medium .el-input__icon {
       line-height: 30px; }
   .el-input--small {
     font-size: 14px; }
     .el-input--small .el-input__inner {
-      height: 30px;
+      height: 30px !important;
       line-height: 30px; }
     .el-input--small .el-input__icon {
       line-height: 30px; }
   .el-input--mini {
     font-size: 14px; }
     .el-input--mini .el-input__inner {
-      height: 30px;
+      height: 30px !important;
       line-height: 30px; }
     .el-input--mini .el-input__icon {
       line-height: 30px; }
@@ -26648,7 +26650,7 @@
     display: table-cell; }
   .el-input-group__append, .el-input-group__prepend {
     background-color: #f5f7fa;
-    color: #FFFFFF;
+    color: #666;
     vertical-align: middle;
     display: table-cell;
     position: relative;
@@ -30212,7 +30214,7 @@
     color: #606266;
     display: inline-block;
     font-size: inherit;
-    height: 30px;
+    height: 30px !important;
     line-height: 30px;
     outline: none;
     padding: 0 15px;
@@ -30293,21 +30295,21 @@
   .el-input--medium {
     font-size: 14px; }
     .el-input--medium .el-input__inner {
-      height: 30px;
+      height: 30px !important;
       line-height: 30px; }
     .el-input--medium .el-input__icon {
       line-height: 30px; }
   .el-input--small {
     font-size: 14px; }
     .el-input--small .el-input__inner {
-      height: 30px;
+      height: 30px !important;
       line-height: 30px; }
     .el-input--small .el-input__icon {
       line-height: 30px; }
   .el-input--mini {
     font-size: 14px; }
     .el-input--mini .el-input__inner {
-      height: 30px;
+      height: 30px !important;
       line-height: 30px; }
     .el-input--mini .el-input__icon {
       line-height: 30px; }
@@ -30322,7 +30324,7 @@
     display: table-cell; }
   .el-input-group__append, .el-input-group__prepend {
     background-color: #f5f7fa;
-    color: #FFFFFF;
+    color: #666;
     vertical-align: middle;
     display: table-cell;
     position: relative;
@@ -35284,8 +35286,11 @@
     padding-right: 16px; }
   .el-message p {
     margin: 0; }
+  .el-message--info {
+    background-color: #c4bfbf;
+    border-color: rgb(182, 177, 177); }
   .el-message--info .el-message__content {
-    color: #FFFFFF; }
+    color: rgb(49, 46, 46); }
   .el-message--success {
     background-color: #f0f9eb;
     border-color: #e1f3d8; }
@@ -38429,7 +38434,7 @@
     color: #606266;
     display: inline-block;
     font-size: inherit;
-    height: 30px;
+    height: 30px !important;
     line-height: 30px;
     outline: none;
     padding: 0 15px;
@@ -38510,21 +38515,21 @@
   .el-input--medium {
     font-size: 14px; }
     .el-input--medium .el-input__inner {
-      height: 30px;
+      height: 30px !important;
       line-height: 30px; }
     .el-input--medium .el-input__icon {
       line-height: 30px; }
   .el-input--small {
     font-size: 14px; }
     .el-input--small .el-input__inner {
-      height: 30px;
+      height: 30px !important;
       line-height: 30px; }
     .el-input--small .el-input__icon {
       line-height: 30px; }
   .el-input--mini {
     font-size: 14px; }
     .el-input--mini .el-input__inner {
-      height: 30px;
+      height: 30px !important;
       line-height: 30px; }
     .el-input--mini .el-input__icon {
       line-height: 30px; }
@@ -38539,7 +38544,7 @@
     display: table-cell; }
   .el-input-group__append, .el-input-group__prepend {
     background-color: #f5f7fa;
-    color: #FFFFFF;
+    color: #666;
     vertical-align: middle;
     display: table-cell;
     position: relative;
@@ -40106,7 +40111,7 @@
     color: #606266;
     display: inline-block;
     font-size: inherit;
-    height: 30px;
+    height: 30px !important;
     line-height: 30px;
     outline: none;
     padding: 0 15px;
@@ -40187,21 +40192,21 @@
   .el-input--medium {
     font-size: 14px; }
     .el-input--medium .el-input__inner {
-      height: 30px;
+      height: 30px !important;
       line-height: 30px; }
     .el-input--medium .el-input__icon {
       line-height: 30px; }
   .el-input--small {
     font-size: 14px; }
     .el-input--small .el-input__inner {
-      height: 30px;
+      height: 30px !important;
       line-height: 30px; }
     .el-input--small .el-input__icon {
       line-height: 30px; }
   .el-input--mini {
     font-size: 14px; }
     .el-input--mini .el-input__inner {
-      height: 30px;
+      height: 30px !important;
       line-height: 30px; }
     .el-input--mini .el-input__icon {
       line-height: 30px; }
@@ -40216,7 +40221,7 @@
     display: table-cell; }
   .el-input-group__append, .el-input-group__prepend {
     background-color: #f5f7fa;
-    color: #FFFFFF;
+    color: #666;
     vertical-align: middle;
     display: table-cell;
     position: relative;
