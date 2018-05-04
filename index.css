@@ -15453,7 +15453,7 @@
     .el-table__footer-wrapper td {
       border-top: 1px solid #DDDDDD; }
   .el-table__header, .el-table__body, .el-table__footer {
-    table-layout: inherit;
+    table-layout: fixed;
     border-collapse: separate; }
   .el-table__header-wrapper, .el-table__footer-wrapper {
     overflow: hidden; }

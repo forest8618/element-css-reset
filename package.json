@@ -1,6 +1,6 @@
 {
   "name": "element-css-reset",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "reset element-ui styles",
   "main": "index.css",
   "scripts": {
